@@ -1,0 +1,12 @@
+diff -Naur ehnt-0.3/ehnt_lookup.c ehnt-0.3-p/ehnt_lookup.c
+--- ehnt-0.3/ehnt_lookup.c	Thu Oct  4 20:18:29 2001
++++ ehnt-0.3-p/ehnt_lookup.c	Sat Mar 15 13:56:16 2003
+@@ -36,7 +36,7 @@
+ 
+   memset(ASNs,0,sizeof(ASNs));
+ 
+-  if ( ! (f=fopen ("asnc.txt","r")) ) {
++  if ( ! (f=fopen ("/usr/share/ehnt/asnc.txt","r")) ) {
+     perror("fopen");
+   } else {
+     for ( ; ; ) {

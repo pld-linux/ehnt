@@ -1,0 +1,12 @@
+diff -Naur ehnt-0.3/ehnt_processflow.c ehnt-0.3-p/ehnt_processflow.c
+--- ehnt-0.3/ehnt_processflow.c	Thu Oct  4 20:18:29 2001
++++ ehnt-0.3-p/ehnt_processflow.c	Sat Mar 15 13:42:42 2003
+@@ -218,7 +218,7 @@
+ 	dstip.s_addr=rec->dstaddr;
+ 	nexthop.s_addr=rec->nexthop;
+ 
+-	printf("%.0f:%s",local_flowcount,routeraddr_string);
++	printf("%.0f:%s:",local_flowcount,routeraddr_string);
+ 	printf("%d:%s:%d:",
+ 	       rec->input_index,
+ 	       inet_ntoa(srcip),
