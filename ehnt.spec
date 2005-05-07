@@ -5,13 +5,14 @@ Version:	0.3
 Release:	1
 License:	GPL
 Group:		Applications/Networking
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/ehnt/%{name}-%{version}.tar.gz
 # Source0-md5:	1477137f5207561cafb421864351562d
-Source1:	http://dl.sourceforge.net/%{name}/%{name}_data-%{version}.tar.gz
+Source1:	http://dl.sourceforge.net/ehnt/%{name}_data-%{version}.tar.gz
 # Source1-md5:	b861e0fb0092c45c71b9048e9a4b1679
 Patch0:		%{name}-colondump.patch
 Patch1:		%{name}-asnc_path.patch
 URL:		http://ehnt.sourceforge.net/
+BuildRequires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
