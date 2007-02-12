@@ -1,5 +1,5 @@
 Summary:	Extreme Happy Netflow Tool
-Summary(pl.UTF-8):   Extreme Happy Netflow Tool - narzędzie do wyciągania statystyk ruchu
+Summary(pl.UTF-8):	Extreme Happy Netflow Tool - narzędzie do wyciągania statystyk ruchu
 Name:		ehnt
 Version:	0.3
 Release:	1
