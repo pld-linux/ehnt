@@ -1,5 +1,5 @@
 Summary:	Extreme Happy Netflow Tool
-Summary(pl):	Extreme Happy Netflow Tool - narzêdzie do wyci±gania statystyk ruchu
+Summary(pl.UTF-8):   Extreme Happy Netflow Tool - narzÄ™dzie do wyciÄ…gania statystyk ruchu
 Name:		ehnt
 Version:	0.3
 Release:	1
@@ -19,8 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 EHNT is a software to get some useful information from
 Cisco/Juniper/Foundry netflow without too much trouble.
 
-%description -l pl
-EHNT to oprogramowanie do wyci±gania przydatnych informacji ze
+%description -l pl.UTF-8
+EHNT to oprogramowanie do wyciÄ…gania przydatnych informacji ze
 statystyk generowanych przez routery Cisco/Juniper/Foundry, znanych
 jako netflow.
 
